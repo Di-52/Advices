@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">Advices</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="history_fragment_title">History</string>
+    <string name="search_invitation">What do you need advice about?</string>
+    <string name="search_advice_button_text">Search Advice</string>
+    <string name="search_random_button_text">Show random advice</string>
+    <string name="no_tips_text">No tips yet here...</string>
+    <string name="load_more_text">Load more...</string>
 </resources>
