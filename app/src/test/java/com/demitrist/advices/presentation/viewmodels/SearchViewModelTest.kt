@@ -1,5 +1,10 @@
 package com.demitrist.advices.presentation.viewmodels
 
+import com.demitrist.advices.R
+import com.demitrist.advices.core.DispatchersList
+import com.demitrist.advices.core.ProvideResources
+import com.demitrist.advices.domain.*
+import com.demitrist.advices.presentation.AdviceUi
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.test.TestCoroutineDispatcher
@@ -94,7 +99,7 @@ class SearchViewModelTest {
         assertEquals(0, interactor.randomAdviceCalledCount)
         assertEquals(
             SearchUiState.Success(listOf(
-                ArviceUi(
+                AdviceUi(
                     id = 1,
                     text = "text",
                     isFavourite = false
@@ -134,7 +139,7 @@ class SearchViewModelTest {
         assertEquals(1, interactor.randomAdviceCalledCount)
         assertEquals(
             SearchUiState.Success(listOf(
-                ArviceUi(
+                AdviceUi(
                     id = 1,
                     text = "text",
                     isFavourite = false
